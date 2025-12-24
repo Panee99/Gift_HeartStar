@@ -8,11 +8,16 @@ window.removeEventListener("click", playMusicOnce);
 window.addEventListener("click", playMusicOnce);
 
 const messages = [
-  "Em là vũ trụ của anh",
-  "Tình yêu bất tận giữa các vì sao",
-  "Em là ngôi sao sáng nhất",
-  "Anh tỏa sáng là vì em",
-  "Em thật tỏa sáng trên bầu trời của anh"
+  "Em là điều quý giá nhất trong tim anh",
+  "Chỉ cần có em, mọi thứ đều trở nên hoàn hảo",
+  "Nụ cười của em làm anh quên hết mệt mỏi",
+  "Anh may mắn vì có em bên cạnh",
+  "Em là ánh sáng dịu dàng trong cuộc sống của anh",
+  "Mỗi ngày của anh đều đẹp hơn vì em",
+  "Anh luôn trân trọng từng khoảnh khắc có em",
+  "Em là lý do khiến anh luôn mỉm cười",
+  "Trái tim anh chỉ hướng về em",
+  "Với anh, em luôn là điều đặc biệt nhất"
 ];
 const fallingTexts = [];
 
@@ -286,4 +291,5 @@ setInterval(() => { if (Math.random() < 0.7) createMeteor(); }, 3000);
 
 createHeartStars();
 createBackgroundStars();
+
 animate();
